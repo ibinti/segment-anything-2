@@ -11,6 +11,9 @@ from hydra import compose
 from hydra.utils import instantiate
 from omegaconf import OmegaConf
 
+"""
+https://github.com/DeepMed-Lab-ECNU/FS_MedSAM2
+"""
 
 def build_sam2(
     config_file,
